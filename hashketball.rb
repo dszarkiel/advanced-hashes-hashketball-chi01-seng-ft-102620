@@ -248,7 +248,8 @@ def big_shoe_rebounds
       if team_detail == :players
         detail.each do |key|
       binding.pry
-    #end
+    end
+    end
     end
   end
 end
