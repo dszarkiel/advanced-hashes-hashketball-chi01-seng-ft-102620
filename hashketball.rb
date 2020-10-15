@@ -251,7 +251,7 @@ def big_shoe_rebounds
           key.each do |stats, value|
             if stats == :shoe
               if value > size
-                value = size
+                size = value
                 binding.pry
     end
     end
