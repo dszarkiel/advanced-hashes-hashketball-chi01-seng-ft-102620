@@ -252,6 +252,7 @@ def big_shoe_rebounds
             if stats == :shoe
               if value > size
                 value == size
+                binding.pry
     end
     end
     end
