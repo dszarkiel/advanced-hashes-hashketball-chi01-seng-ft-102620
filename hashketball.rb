@@ -253,7 +253,6 @@ def big_shoe_rebounds
               if value > size
                 size = value
                 big_shoe_hash = key
-                binding.pry
     end
     end
     end
