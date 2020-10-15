@@ -243,11 +243,16 @@ end
 def big_shoe_rebounds
   basketball = game_hash
   big_shoe_hash = {}
+  size_zero = 0
   basketball.each do |team_origin, team_info|
     team_info.each do |team_detail, detail|
       if team_detail == :players
         detail.each do |key|
+          key.each do |stats, value|
+            if stats == :shoe
+
       binding.pry
+    end
     end
     end
     end
