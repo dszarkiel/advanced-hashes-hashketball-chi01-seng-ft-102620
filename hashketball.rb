@@ -261,5 +261,5 @@ def big_shoe_rebounds
     end
     end
   end
-  size
+  big_shoe_hash[:rebounds]
 end
