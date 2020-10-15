@@ -248,5 +248,6 @@ def big_shoe_rebounds
       detail.each do |key|
       binding.pry
     end
+    end
   end
 end
